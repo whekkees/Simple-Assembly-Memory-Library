@@ -7,17 +7,6 @@ memcpy — копирует N байт из одного участка памя
 memset — заполняет участок памяти одним байтом.
 memcmp — сравнивает два участка памяти побайтово.
 
-Структура
-memorylib/
-├── Cargo.toml
-├── build.rs
-└── src/
-    ├── main.rs
-    └── assembly/
-        ├── memcpy.asm
-        ├── memset.asm
-        └── memcmp.asm
-
 Что использовалось
 Rust
 x86-64 Assembly
